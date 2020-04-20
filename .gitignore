@@ -1,0 +1,11 @@
+## Ignore Visual Studio temporary files, build results, and
+.vs/
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+debug/
+bin/
+obj/
+release/

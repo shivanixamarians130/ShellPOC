@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShellPOC.Views.HomePage"
+       xmlns:page="clr-namespace:ShellPOC.Views"
+       Shell.TabBarBackgroundColor="#1979a9"
+       Shell.TabBarTitleColor="#ffffff"
+       NavigationPage.HasNavigationBar="False">
+    
+  <TabBar >
+    <Tab Title="Home">
+      <ShellContent Title="Home">
+        <Shell>
+          <FlyoutItem Title="About">
+            <Tab>
+              <ShellContent>
+                <ContentPage/>
+              </ShellContent>
+            </Tab>
+          </FlyoutItem>
+          <FlyoutItem Title="BindableLayouts">
+            <Tab>
+              <ShellContent>
+                <ContentPage/>
+              </ShellContent>
+            </Tab>
+          </FlyoutItem>
+          <FlyoutItem Title="Graphs">
+            <Tab>
+              <ShellContent>
+                <ContentPage/>
+              </ShellContent>
+            </Tab>
+          </FlyoutItem>
+        </Shell>
+      </ShellContent>
+    </Tab>
+    <Tab Title="ThirdPartyLib">
+            <ShellContent Title="NugetPackages">
+                <page:ThirdPartyLibrariesPage/>
+            </ShellContent>
+        </Tab>
+    <Tab Title="Settings">
+            <ShellContent>
+                <page:NugetPackagesPage/>
+            </ShellContent>
+           
+        </Tab>
+    </TabBar>
+</Shell>
