@@ -6,6 +6,7 @@ using Xamarin.Forms;
 namespace ShellPOC
 {
     class CustomEntry : Entry
+
     {
     }
 }
