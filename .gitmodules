@@ -1,0 +1,3 @@
+[submodule "CovidCorpus"]
+	path = CovidCorpus
+	url = https://github.com/shivanixamarians130/CovidCorpus.git
